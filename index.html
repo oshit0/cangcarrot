@@ -23,11 +23,48 @@
                 text-align: center;
                 margin: auto;
             }
+            .button-next-page {
+                background-color: rgb(251, 238, 224);
+                border: 2px solid rgb(66, 40, 0); 
+                border-radius: 30px; 
+                box-shadow: rgb(66, 40, 0) 4px 4px 0px 0px; 
+                color: rgb(66, 40, 0); 
+                cursor: pointer; 
+                display: inline-block; 
+                font-weight: 600; 
+                font-size: 1rem; 
+                padding: 0px 3rem; 
+                line-height: 50px; 
+                text-align: center; 
+                text-decoration: none; 
+                user-select: none; 
+                touch-action: manipulation;margin: 0;
+
+                margin: 0;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            .button-next-page:hover {
+                background-color: rgb(255, 255, 255);
+                color: rgb(66, 40, 0);
+            }
+            .button-next-page:focus {
+                color: rgb(66, 40, 0);
+            }
+            .button-next-page:active {
+                box-shadow: rgb(66, 40, 0) 2px 2px 0px 0px; 
+                -ms-transform: translate(-48%, -48%);
+                transform: translate(-48%, -48%);
+            }
         </style>
     </head>
     <body>
         <div class="bg">
-            <h1 class="title">La douleur exquise</h1>
+            <h1 class="title">Hello Dan!</h1>
+            <button class="button-next-page">Click Me :3</button>
         </div>
     </body>
 </html>
